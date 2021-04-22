@@ -1,0 +1,163 @@
+{
+	"title":"Event Title (plain text)",
+	"subtitle":"Event Subtitle (plain text)",
+	"description":"Event Description (HTML)",
+	"dateTimeStart":"YYYY-MM-DD HH:MI:SS (SQL Datetime or Unix datetime)",
+	"dateTimeEnd":"YYYY-MM-DD HH:MI:SS (SQL Datetime or Unix datetime)",
+	"introHeading":"Event Intro Heading (plain text)",
+	"introCopy":"Event Intro Copy (plain text)",
+	"views":[
+		{
+			"name":"event",
+			"enabled":true,
+			"datePublish":"YYYY-MM-DD HH:MI:SS (SQL Datetime or Unix datetime)",
+			"dateExpire":"YYYY-MM-DD HH:MI:SS (SQL Datetime or Unix datetime)"
+		},
+		{
+			"name":"register",
+			"enabled":true,
+			"datePublish":"YYYY-MM-DD HH:MI:SS (SQL Datetime or Unix datetime)",
+			"dateExpire":"YYYY-MM-DD HH:MI:SS (SQL Datetime or Unix datetime)"
+		},
+		{
+			"name":"sponsors",
+			"enabled":true,
+			"datePublish":"YYYY-MM-DD HH:MI:SS (SQL Datetime or Unix datetime)",
+			"dateExpire":"YYYY-MM-DD HH:MI:SS (SQL Datetime or Unix datetime)"
+		},
+		{
+			"name":"documents",
+			"enabled":true,
+			"datePublish":"YYYY-MM-DD HH:MI:SS (SQL Datetime or Unix datetime)",
+			"dateExpire":"YYYY-MM-DD HH:MI:SS (SQL Datetime or Unix datetime)"
+		},
+		{
+			"name":"schedule",
+			"enabled":false,
+			"datePublish":null,
+			"dateExpire":null
+		} 
+	],
+	"pricing":[
+		{
+			"tierName":"Tier One (plain text)",
+			"cost":85,
+			"description":"Feature description, maybe <ul> or something (HTML)"
+		},
+		{
+			"tierName":"Tier Two (plain text)",
+			"cost":75,
+			"description":"Feature description, maybe <ul> or something (HTML)"
+		}
+	],
+	"speakers":[
+		{
+			"id":1,
+			"name":"Firstname McLastnamerson (plain text)",
+			"firstName":"Firstname (plain text)",
+			"lastName":"LastNamerson (plain text)",
+			"company":"Company Name (plain text)",
+			"bio":"Firstname was always an exceptional child... (HTML)",
+			"image":"https://website.com/path/to/image.jpg",
+			"featured":false
+		},
+		{
+			"id":2,
+			"name":"Speaker McSpeakerson (plain text)",
+			"firstName":"Speaker (plain text)",
+			"lastName":"McSpeakerson (plain text)",
+			"company":"Company Name (plain text)",
+			"bio":"Speaker loves to talk... (HTML)",
+			"image":"https://website.com/path/to/image.jpg",
+			"featured":true
+		}
+	],
+	"guests":[
+		{
+			"id":1,
+			"name":"Firstname McLastnamerson (plain text)",
+			"firstName":"Firstname (plain text)",
+			"lastName":"LastNamerson (plain text)",
+			"company":"Company Name (plain text)",
+			"bio":"Firstname was always an exceptional child... (HTML)",
+			"image":"https://website.com/path/to/image.jpg",
+			"featured":false
+		},
+		{
+			"id":2,
+			"name":"Speaker McSpeakerson (plain text)",
+			"firstName":"Speaker (plain text)",
+			"lastName":"McSpeakerson (plain text)",
+			"company":"Company Name (plain text)",
+			"bio":"Speaker loves to talk... (HTML)",
+			"image":"https://website.com/path/to/image.jpg",
+			"featured":true
+		}
+	],
+	"schedule":[
+		{
+			"id":1,
+			"title":"Session 2 (plain text)",
+			"dateTimeStart":"YYYY-MM-DD HH:MI:SS (SQL Datetime or Unix datetime)",
+			"dateTimeEnd":"YYYY-MM-DD HH:MI:SS (SQL Datetime or Unix datetime)",
+			"location": "Ballroom (plain text)",
+			"description" : "Short description (plain text)"
+		},
+		{
+			"id":2,
+			"title":"Session 2 (plain text)",
+			"dateTimeStart":"YYYY-MM-DD HH:MI:SS (SQL Datetime or Unix datetime)",
+			"dateTimeEnd":"YYYY-MM-DD HH:MI:SS (SQL Datetime or Unix datetime)",
+			"location": "Ballroom (plain text)",
+			"description" : "Short description (plain text)"
+		}
+	],
+	"sponsors":[
+			{
+				"id":1,
+				"title":"Sponsor Title (plain text)",
+				"description":"Sponsor Description (HTML)",
+				"featuredImage":"https://website.com/path/to/image.jpg",
+				"logo":"https://website.com/path/to/image.jpg",
+				"tier":"Silver Level Sponsor (plain text)",
+				"featured":false
+			},
+			{
+				"id":2,
+				"title":"Sponsor Title (plain text)",
+				"description":"Sponsor Description (HTML)",
+				"featuredImage":"https://website.com/path/to/image.jpg",
+				"logo":"https://website.com/path/to/image.jpg",
+				"tier":"Gold Level Sponsor (plain text)",
+				"featured":true
+			}
+	],
+	"offers":[
+		{
+			"id":1,
+			"title":"Offer 1 Title (plain text)",
+			"description":"Short description of the offer (plain text)",
+			"featuredImage":"https://website.com/path/to/image.jpg",
+			"link":"https://website.com/offer1"
+		},
+		{
+			"id":2,
+			"title":"Offer 2 Title (plain text)",
+			"description":"Short description of the offer (plain text)",
+			"featuredImage":"https://website.com/path/to/image.jpg",
+			"link":"https://website.com/offer2"
+		}
+	],
+	"documents":[
+		{
+			"id":1,
+			"title":"Document 1 Title (plain text)",
+			"documentUrl":"https://website.com/path/to/document1.pdf"
+		},
+		{
+			"id":2,
+			"title":"Document 2 Title (plain text)",
+			"documentUrl":"https://website.com/path/to/document2.pdf"
+		}
+	]
+}
